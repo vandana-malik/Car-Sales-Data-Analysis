@@ -80,7 +80,7 @@ data['age'] = 2024 - data['model_year']
 
 data['age_category'] = data['age'].apply(age_category)
 
-list_for_scatter = ['odometer','model_year','', 'days_listed']
+list_for_scatter = ['odometer','model_year','days_listed']
 
 choice_for_scatter = st.selectbox('Price dependency on',list_for_scatter)
 
