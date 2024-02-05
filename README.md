@@ -1,10 +1,8 @@
 # Car-Sales-Data-Analysis
 
-this is a tool to simulate random events, and the methods and libraries used to implement it. It should also contain instructions on how other people could launch your project on their local machine if they wanted to.
-
 This is a tool to analyze Used car Sales data. 
 
-Understanding the dataset: Follwing are the features privided in the dataset
+Understanding the dataset: Follwing are the features provided in the dataset
 price                
 model_year         
 model           
@@ -36,3 +34,20 @@ Output:
 
 Visualizations:
 The user is able to see the histograms and statterplots to visulaize the realationship of the price of teh car with other features.
+
+Instructions to use the repository
+
+Installing
+Follow these steps to get the project set up on your local machine:
+
+Clone the repository to your local machine using the following command:
+
+git clone https://github.com/vandana-malik/Car-Sales-Data-Analysis
+
+
+Navigate to terminal and give the following command to view the dashboard and test it out.
+ streamlit run app.py
+
+
+Web app link: https://car-data-analysis.onrender.com
+
